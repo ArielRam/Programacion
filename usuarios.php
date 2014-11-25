@@ -9,7 +9,7 @@ class Usuario extends DBAbstract {
 	protected $id;
 
 	function __construct() {
-			$this->db_name = 'tablas que vamos a usar';
+			$this->db_name = 'tablas que vamos a utilzar';
 		}
 	public function get($user_email='') {
 		if($user_email != ''):
