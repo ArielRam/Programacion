@@ -1,15 +1,16 @@
 <?php
+
 require_once('usuarios.php');
 # Traer los datos de un usuario
 $usuario1 = new Usuario();
-$usuario1->get('user@email.com');
+$usuario1->get('ariel@email.com');
 print $usuario1->nombre . ' ' . $usuario1->apellido . ' existe<br>';
 
 # Crear un nuevo usuario
 $new_user_data = array(
 	'nombre'=>'Alberto',
 	'apellido'=>'Jacinto',
-	'email'=>'albert2000@mail.com',
+	'email'=>'asdfadsfasdf@mail.com',
 	'clave'=>'jacaranda'
 );
 
